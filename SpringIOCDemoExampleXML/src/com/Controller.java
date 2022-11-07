@@ -10,6 +10,8 @@ import org.springframework.core.io.Resource;
 public class Controller {
 	
 	public static void main(String[] args) {
+
+		System.out.println("Main method Started--");
 		
 		Resource resource = new ClassPathResource("NewFile.xml");
 		
